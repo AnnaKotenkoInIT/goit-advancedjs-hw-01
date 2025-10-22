@@ -1,0 +1,23 @@
+/*Gallery*/
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+}
+
+.gallery-item {
+  flex: calc((100% - 2 * 24px) / 3);
+  transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
